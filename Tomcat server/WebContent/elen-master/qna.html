@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+<style>
+#qna_wrap{position:relative;width:900px;height:800px;margin:0 auto;}
+#qna_wrap .qnaQ{position:relative;float:left;width:100%;margin-bottom:30px;}
+#qna_wrap .qnaA{position:relative;float:left;width:100%;margin-bottom:30px;}
+.qna_w{float:left;width:82%;padding:4% 4% 4% 10%;background:#fff;border-radius:30px;border:5px solid orange;box-shadow:5px 5px 5px #e0e0e0;}
+.q_text{float:left;width:100%;font-size:26px;text-align:center;}/* 문제데이터 글씨 */
+.qnaA b{float:left;width:100%;font-size:20px;margin-bottom:20px;}
+#qna_wrap em{position:absolute;left:15px;top:15px;width:50px;height:50px;text-align:center;line-height:50px;font-style:normal;font-size:30px;font-wieght:1000;color:#fff;background:skyblue;border-radius:100%;}
+.qna_w input{float:left;width:40%;line-height:40px;border:1px solid #ccc;text-align:center;margin-right:50px;font-size:18px;background:#fff;border-radius:30px;}
+</style>
+
+
+<div id="qna_wrap">
+	<div class="qnaQ">
+		<div class="qna_w">
+			<em>Q</em>
+			<div class="q_text"><p>____ train is ____ at the station under tree</p></div>
+		</div>
+	</div>
+	<div class="qnaA">
+			<div class="qna_w">
+			<em>A</em>
+			<b>빈칸을 채워주세요.</b>
+			<input type="text" value="1번 정답을 입력해주세요.">
+			<input type="text" value="2번 정답을 입력해주세요.">
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
